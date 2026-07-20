@@ -2,11 +2,13 @@
 
 This project showcases an **end-to-end time series forecasting workflow** built using **15 years of U.S. retail sales data**. I developed it to demonstrate data preparation, trend and seasonality analysis, regression modeling, forecast validation, and business decision support.
 
-Although the project uses **U.S. hardware and tools retail sales data** as its case study, the forecasting techniques I apply such as time series analysis, seasonal decomposition, regression modeling, model evaluation, and forecast validation are broadly transferable to supply chain, operations, manufacturing, retail, healthcare, finance, and other industries requiring accurate demand forecasting and resource planning.
+Although the project uses **U.S. hardware and tools retail sales data** as its case study, the forecasting techniques I apply—including time series analysis, seasonal decomposition, regression modeling, model evaluation, and forecast validation—are broadly transferable to supply chain, operations, manufacturing, retail, healthcare, finance, and other industries requiring accurate demand forecasting and resource planning.
 
 Using **Microsoft Excel**, statistical modeling, and quantitative forecasting techniques, I transformed historical sales data into actionable demand forecasts that support operational planning, staffing, inventory management, and financial decision-making.
 
 To complement the analysis, I also authored a comprehensive **Time Series Forecasting Playbook** documenting the complete modeling workflow. The playbook serves as a reusable reference for building, evaluating, and validating Excel-based forecasting models while showcasing my ability to clearly communicate and standardize analytical methodologies.
+
+As an additional challenge, I completed the entire forecasting solution such as the validation, executive report, and supporting documentation **in under three hours**, despite being allocated a three-hour time limit. This demonstrates my ability to rapidly execute an end-to-end forecasting workflow while maintaining analytical rigor and professional documentation.
 
 ## 💼 Analytical Goals
 
