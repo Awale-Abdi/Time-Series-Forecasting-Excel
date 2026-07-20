@@ -1,10 +1,12 @@
 <h1 align="center">Time Series Forecasting & Predictive Analytics | Business Demand Forecasting with Excel</h1>
 
-This project demonstrates an **end-to-end time series forecasting workflow** using **15 years of U.S. retail sales data** to showcase skills such as data preparation, trend and seasonality analysis, regression modeling, forecast validation, and business decision support.
+This project showcases an **end-to-end time series forecasting workflow** built using **15 years of U.S. retail sales data**. I developed it to demonstrate data preparation, trend and seasonality analysis, regression modeling, forecast validation, and business decision support.
 
-While the project uses **U.S. hardware and tools retail sales data** as its case study, the forecasting methodologies demonstrated such as time series analysis, seasonal decomposition, regression modeling, model evaluation, and forecast validation are broadly transferable to supply chain, operations, manufacturing, retail, healthcare, finance, and other industries requiring accurate demand forecasting and resource planning.
+Although the project uses **U.S. hardware and tools retail sales data** as its case study, the forecasting techniques I apply such as time series analysis, seasonal decomposition, regression modeling, model evaluation, and forecast validation are broadly transferable to supply chain, operations, manufacturing, retail, healthcare, finance, and other industries requiring accurate demand forecasting and resource planning.
 
-The solution applies Microsoft Excel, statistical modeling, and quantitative forecasting techniques to transform historical sales data into actionable demand forecasts that support operational planning, staffing, inventory management, and financial decision-making. To complement the analysis, I also authored a comprehensive Time Series Forecasting Playbook documenting the complete modeling workflow, creating a reusable reference for building, evaluating, and validating Excel-based forecasting models on a wide variety of datasets in order to demonstrate my solid command of methodologies I applied for this case study.
+Using **Microsoft Excel**, statistical modeling, and quantitative forecasting techniques, I transformed historical sales data into actionable demand forecasts that support operational planning, staffing, inventory management, and financial decision-making.
+
+To complement the analysis, I also authored a comprehensive **Time Series Forecasting Playbook** documenting the complete modeling workflow. The playbook serves as a reusable reference for building, evaluating, and validating Excel-based forecasting models while showcasing my ability to clearly communicate and standardize analytical methodologies.
 
 ## 💼 Analytical Goals
 
