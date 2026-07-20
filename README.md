@@ -6,13 +6,6 @@ While the project uses **U.S. hardware and tools retail sales data** as its case
 
 The solution applies Microsoft Excel, statistical modeling, and quantitative forecasting techniques to transform historical sales data into actionable demand forecasts that support operational planning, staffing, inventory management, and financial decision-making. To complement the analysis, I also authored a comprehensive Time Series Forecasting Playbook documenting the complete modeling workflow, creating a reusable reference for building, evaluating, and validating Excel-based forecasting models.
 
-
-## 🎯 Objective
-
-To demonstrate the ability to design, evaluate, and validate a **time series forecasting solution** capable of predicting future business demand using historical structured datasets.
-
-The project simulates the work of a business analyst responsible for forecasting future sales, evaluating model performance, and supporting operational planning through quantitative analysis.
-
 ## 💼 Analytical Goals
 
 This project focuses on applying time series forecasting and statistical modeling techniques to determine whether historical sales patterns can be leveraged to produce accurate business forecasts.
