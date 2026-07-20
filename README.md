@@ -177,9 +177,9 @@ Datasets/
     Hardware and Tools - Original Dataset.xlsx
 
 Outputs/
-    Hardware and Tools – Results.xlsx
-    Forecast Vs. Actual Sales.xlsx
     Executive Brief – Sales Forecast Summary.docx
+    Forecast Vs. Actual Sales.xlsx
+    Hardware and Tools – Results.xlsx
     Time Series Forecasting Playbook – Excel Models.docx
 ```
 
@@ -207,7 +207,7 @@ Open:
 Outputs/
 ```
 
-Review the forecasting workbook and supporting documentation to explore the complete analytical workflow.
+Review the forecasting workbook and supporting documentation to explore the complete analytical workflow and replicate the contents of the Outputs folder.
 
 ## 📬 Contact
 
