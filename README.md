@@ -88,6 +88,35 @@ Evaluated forecasting performance using:
 - Residual Analysis
 - Benchmark comparison against actual U.S. Census sales
 
+
+## 📘 Time Series Forecasting Playbook
+
+In addition to the forecasting solution, this repository includes a comprehensive **Time Series Forecasting Playbook** authored by me to document the complete analytical workflow used throughout the project.
+
+Designed as a reusable forecasting framework, the playbook demonstrates the ability to document, standardize, and communicate forecasting methodologies for future use by analysts, students, and business teams working with Excel-based time series models.
+
+### Topics Covered
+
+- Preparing and structuring time-indexed datasets
+- Engineering seasonal dummy variables
+- Constructing seasonal indices using moving averages
+- Building and comparing multiple regression-based forecasting models
+- Evaluating model performance using Adjusted R², RMSE, and MAPE
+- Visualizing forecast accuracy
+- Validating forecasts against real-world sales data
+
+### Forecasting Models Included
+
+- Linear Regression
+- Exponential Regression
+- Quadratic Regression
+- Linear Regression with Seasonal Dummy Variables
+- Exponential Regression with Seasonal Dummy Variables
+- Quadratic Regression with Seasonal Dummy Variables
+- Deseasonalized Linear Regression
+- Deseasonalized Exponential Regression
+- Deseasonalized Quadratic Regression
+
 ## 📊 Analytical Insights
 
 #### Forecast Performance
