@@ -1,102 +1,220 @@
-<h1 align="center">Hardware Retail Sales Forecasting – Excel Time Series Models Over 15 Years (2005–2020)</h1>
+<h1 align="center">Time Series Forecasting & Predictive Analytics | Business Demand Forecasting with Excel</h1>
 
-This Excel-based time series forecasting project analyzes 15 years of U.S. hardware and tools retail sales data to generate a 12-month predictive sales forecast. Completed as part of a graduate-level **Supply Chain Analytics** course, the assignment placed me in the role of a **Supply-Chain Analyst** tasked with producing a highly accurate monthly sales forecast to inform internal resource planning—materials, staffing, and financial capacity for the upcoming fiscal year.
+This project demonstrates an **end-to-end time series forecasting workflow** using **15 years of U.S. retail sales data** to showcase data preparation, trend and seasonality analysis, regression modeling, forecast validation, and business decision support.
 
-The core analysis—including model construction, validation, and communication—was performed in under **90 minutes as part of a timed 3-hour project**, simulating a real-world corporate decision-making environment. The task required evaluating industry sales data (**Sep 2005–Aug 2020**), forecasting future demand (**Sep 2020–Aug 2021**), and benchmarking against actual 2021 results.
+While the project uses **U.S. hardware and tools retail sales data** as its case study, the forecasting methodologies demonstrated such as time series analysis, seasonal decomposition, regression modeling, model evaluation, and forecast validation are broadly transferable to supply chain, operations, manufacturing, retail, healthcare, finance, and other industries requiring accurate demand forecasting and resource planning.
 
-With my final results—found in the *Forecast vs. Actual Sales* validation sheet, which compares the forecast against real 2021 U.S. Census retail sales data—I was able to achieve a **MAPE of 9.3%**, equivalent to a **forecast accuracy of 90.7%**, demonstrating strong business applicability and realism.
+The solution applies Microsoft Excel, statistical modeling, and quantitative forecasting techniques to transform historical sales data into actionable demand forecasts that support operational planning, staffing, inventory management, and financial decision-making. To complement the analysis, I also authored a comprehensive Time Series Forecasting Playbook documenting the complete modeling workflow, creating a reusable reference for building, evaluating, and validating Excel-based forecasting models.
 
-The final forecast is also presented in a concise executive summary tailored for operational stakeholders, delivering clear, actionable insights. Further included is a reusable **Time Series Forecasting Playbook** documenting the complete modeling workflow, serving as both a practical forecasting guide and proof of my Excel-based forecasting proficiency.
 
 ## 🎯 Objective
 
-To forecast monthly U.S. hardware retail sales for the 12-month period of September 2020 to August 2021 using multiple regression models. This forecast is intended to support resource planning in supply chain, staffing, and financial operations.
+To demonstrate the ability to design, evaluate, and validate a **time series forecasting solution** capable of predicting future business demand using historical structured datasets.
 
-Key goals:
-- Identify trends and monthly seasonality in historical data  
-- Apply and compare multiple forecasting models in Excel  
-- Evaluate models using Adjusted R² and RMSE  
-- Compare forecast to actual U.S. Census retail data  
-- Communicate insights clearly for operational leadership  
-- Provide a reusable modeling framework for future use  
+The project simulates the work of a business analyst responsible for forecasting future sales, evaluating model performance, and supporting operational planning through quantitative analysis.
 
-## 📘 Time Series Forecasting Playbook – Excel Models
+## 💼 Analytical Goals
 
-This project includes a comprehensive Excel-based forecasting playbook authored by me. It outlines the complete process for setting up, executing, and evaluating time series models. Designed for reuse, the playbook was created with the intention of supporting future students, professionals, and teams working with Excel-based forecasting—whether in academic, operational, or business planning contexts.
+This project focuses on applying time series forecasting and statistical modeling techniques to determine whether historical sales patterns can be leveraged to produce accurate business forecasts.
 
-It covers how to:
-- Clean and prepare time-indexed sales data  
-- Create period indices and seasonal dummy variables  
-- Generate seasonal indices using moving averages  
-- Build and evaluate multiple regression models in Excel  
-- Compute error metrics (MSE, RMSE, MAPE)  
-- Visualize actual vs. forecasted sales  
-- Benchmark forecast performance against real-world results  
+The primary goals were to:
 
-### Models Covered:
-- Linear Regression  
-- Exponential Regression  
-- Quadratic Regression  
-- Linear Regression with Dummy Variables  
-- Exponential Regression with Dummy Variables  
-- Quadratic Regression with Dummy Variables  
-- Deseasonalized Linear Regression  
-- Deseasonalized Exponential Regression  
-- Deseasonalized Quadratic Regression  
+- Prepare and analyze historical time series datasets
+- Identify long-term trends and seasonal behavior
+- Develop multiple regression-based forecasting models
+- Compare forecasting methodologies using statistical performance metrics
+- Validate forecast accuracy against real-world sales data
+- Communicate forecasting insights for operational decision-making
 
-## 🧾 Project Scope
+## 🏗️ Solution Architecture
 
-**Dataset**: U.S. hardware and tools retail sales data from Sep 2005 – Aug 2020 (monthly)
+#### Time Series Forecasting Workflow
 
-**Key Steps Applied**:
-- Transpose and clean raw Excel sales data  
-- Add time-period indices and extract year/month from date  
-- Create seasonal dummy variables  
-- Calculate seasonal factors using ratio-to-MA method  
-- Test and compare multiple models  
-- Evaluate performance using RMSE, Adjusted R², and MAPE  
-- Visualize forecasts and trend alignment  
-- Communicate results in a visual + written executive summary  
+- Data preparation
+- Time series analysis
+- Trend analysis
+- Seasonality analysis
+- Regression modeling
+- Model comparison
+- Forecast generation
+- Forecast validation
+- Executive reporting
 
-## 📁 Project Structure
+#### Data
 
-- `Datasets/`  
-  - `Hardware and Tools - Original Dataset.xlsx` – unprocessed original sales data  
+- **Dataset:** U.S. Hardware & Tools Retail Sales
+- **Historical Period:** September 2005 – August 2020
+- **Forecast Period:** September 2020 – August 2021
+- **Frequency:** Monthly
+- **Validation:** U.S. Census Retail Sales Data
 
-- `Outputs/`  
-  - `Hardware and Tools – Awale Abdi’s Results.xlsx` – full regression analysis + forecast  
-  - `Forecast Vs. Actual Sales.xlsx` – comparison of predicted vs. real 2021 sales (MAPE = 9.3%)  
-  - `Time Series Forecasting Playbook – Excel Models.docx` – complete modeling guide  
-  - `Executive Brief – Sales Forecast Summary.docx` – written stakeholder summary  
+#### Data Preparation
 
-## 🛠️ Tools Used
+Performed structured time series preparation by:
 
-📊 Microsoft Excel – data modeling, regression analysis, visualization  
-📈 Excel Data Analysis Toolpak – for regression modeling  
-🧮 Manual dummy variable creation – to model monthly seasonality  
-📉 Moving average method – for seasonal factor generation  
-📝 Microsoft Word – for final documentation and reporting  
+- Cleaning and organizing historical sales data
+- Creating time-period indices
+- Engineering seasonal dummy variables
+- Constructing moving-average seasonal indices
+- Preparing datasets for regression modeling
 
-## 💡 Skills Demonstrated
+#### Time Series Analysis
 
-- Predictive sales forecasting using Excel  
-- Time series modeling with seasonal and trend components  
-- Regression diagnostics: RMSE, residuals, Adjusted R², MAPE  
-- Dummy variable creation and deseasonalization techniques  
-- Real-world forecast validation using government retail data  
-- Visual storytelling through comparative forecast graphs  
-- Business reporting for supply chain and operational use  
-- Documentation of reusable forecasting methodology  
+Conducted exploratory analysis to evaluate:
 
-## 📊 Final Output
+- Long-term sales trends
+- Monthly seasonality
+- Demand fluctuations
+- Trend consistency
+- Forecasting suitability
 
-The final forecast (Sep 2020–Aug 2021) is provided in the **FINAL FORECAST (Quad w Dumm)** sheet of the `Hardware and Tools – Awale Abdi’s Results.xlsx`, based on the top-performing model: **Quadratic Regression with Monthly Dummy Variables**, achieving an **Adjusted R² of 91.1%**.
+#### Statistical Modeling
 
-Forecast validation against 2021 U.S. Census data is included in the `Forecast Vs. Actual Sales.xlsx`, with a **Mean Absolute Percentage Error of 9.3%**, showing strong alignment with real-world demand.
+Developed and compared multiple forecasting models including:
 
-## **Contact Me**
+- Linear Regression
+- Exponential Regression
+- Quadratic Regression
+- Regression with Seasonal Dummy Variables
+- Deseasonalized Regression Models
 
-For questions or collaboration, reach out via:
+#### Forecast Validation
 
-- Awaleiabdi@outlook.com  
-- [LinkedIn](https://www.linkedin.com/in/awale-abdi/)
+Evaluated forecasting performance using:
+
+- Adjusted R²
+- RMSE
+- MAPE
+- Residual Analysis
+- Benchmark comparison against actual U.S. Census sales
+
+## 📊 Analytical Insights
+
+#### Forecast Performance
+
+- The final forecasting model achieved a **MAPE of 9.3%**, corresponding to approximately **90.7% forecast accuracy**.
+- Quadratic Regression with Monthly Dummy Variables produced the strongest overall performance.
+- Validation against actual U.S. Census sales data demonstrated strong real-world forecasting accuracy.
+- Seasonal modeling substantially improved forecast performance compared with simpler trend models.
+
+#### Quantitative Analysis
+
+- Incorporating seasonality significantly enhanced predictive accuracy.
+- Regression-based forecasting effectively captured long-term demand behavior.
+- Comparing multiple candidate models improved confidence in final model selection.
+- Systematic validation demonstrated the practical value of statistical forecasting for business planning.
+
+## 📈 Analytical Recommendations
+
+- Incorporate seasonal behavior into demand forecasting models whenever appropriate.
+- Validate forecasting performance using multiple statistical error metrics rather than relying on a single measure.
+- Benchmark forecasting models against observed outcomes to improve long-term forecasting reliability.
+- Regularly retrain forecasting models as new sales data becomes available.
+
+## 🛠️ Technical Skills Demonstrated
+
+#### Time Series Analytics
+
+- Time Series Forecasting
+- Trend Analysis
+- Seasonality Analysis
+- Demand Forecasting
+- Forecast Validation
+
+#### Statistical Modeling
+
+- Linear Regression
+- Exponential Regression
+- Quadratic Regression
+- Dummy Variable Modeling
+- Deseasonalization
+- Regression Diagnostics
+
+#### Data Analysis
+
+- Data Preparation
+- Feature Engineering
+- Exploratory Data Analysis
+- Model Comparison
+- Performance Evaluation
+
+#### Forecast Evaluation
+
+- Adjusted R²
+- RMSE
+- MAPE
+- Residual Analysis
+- Model Validation
+
+#### Microsoft Excel
+
+- Advanced Excel Modeling
+- Data Analysis ToolPak
+- Time Series Modeling
+- Forecast Visualization
+- Executive Reporting
+
+## 💡 What This Project Demonstrates
+
+This project demonstrates the ability to independently design, evaluate, and validate a business forecasting solution using historical time series data.
+
+Specifically, it showcases proficiency in:
+
+- Time series forecasting
+- Statistical modeling
+- Demand forecasting
+- Forecast validation
+- Regression analysis
+- Data preparation
+- Model evaluation
+- Business reporting
+- Translating quantitative analysis into actionable operational insights
+
+## 📁 Repository Structure
+
+```
+Datasets/
+    Hardware and Tools - Original Dataset.xlsx
+
+Outputs/
+    Hardware and Tools – Results.xlsx
+    Forecast Vs. Actual Sales.xlsx
+    Executive Brief – Sales Forecast Summary.docx
+    Time Series Forecasting Playbook – Excel Models.docx
+```
+
+## 📋 Replicating the Project
+
+#### Clone the Repository
+
+```bash
+git clone https://github.com/Awale-Abdi/Time-Series-Forecasting-Predictive-Analytics-Excel.git
+```
+
+#### Open the Project
+
+The repository includes:
+
+- Original dataset
+- Complete forecasting workbook
+- Executive summary
+- Forecast validation
+- Time Series Forecasting Playbook
+
+Open:
+
+```text
+Outputs/
+```
+
+Review the forecasting workbook and supporting documentation to explore the complete analytical workflow.
+
+## 📬 Contact
+
+**Email**
+
+Awaleiabdi@outlook.com
+
+**LinkedIn**
+
+https://www.linkedin.com/in/awale-abdi/
