@@ -8,7 +8,7 @@ Using **Microsoft Excel**, statistical modeling, and quantitative forecasting te
 
 To complement the analysis, I also authored a comprehensive **Time Series Forecasting Playbook** documenting the complete modeling workflow. The playbook serves as a reusable reference for building, evaluating, and validating Excel-based forecasting models while showcasing my ability to communicate and standardize analytical methodologies.
 
-As an additional challenge, I completed the entire forecasting solution, including the forecast validation, executive report, and supporting documentation, in **under three hours**, despite being alotted a three-hour time limit.
+As an additional challenge, I completed the entire forecasting solution, including the forecast validation, the sales forecast summary for a hypothetical executive, and supporting documentation, in **under three hours**, despite being alotted a three-hour time limit.
 
 ## 💼 Analytical Goals
 
