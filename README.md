@@ -53,6 +53,30 @@ The primary goals were to:
 
 ## 🏗️ Solution Architecture
 
+#### Workflow
+
+```text
+Historical Sales Data
+        ↓
+Data Preparation
+        ↓
+Time Series Analysis
+        ↓
+Trend & Seasonality Analysis
+        ↓
+Feature Engineering
+        ↓
+Regression Modeling
+        ↓
+Model Comparison
+        ↓
+Forecast Generation
+        ↓
+Forecast Validation
+        ↓
+Executive Reporting
+```
+
 #### Time Series Forecasting Workflow
 
 - Data preparation
