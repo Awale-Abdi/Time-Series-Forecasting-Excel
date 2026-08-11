@@ -77,18 +77,6 @@ Forecast Validation
 Executive Reporting
 ```
 
-#### Time Series Forecasting Workflow
-
-- Data preparation
-- Time series analysis
-- Trend analysis
-- Seasonality analysis
-- Regression modeling
-- Model comparison
-- Forecast generation
-- Forecast validation
-- Executive reporting
-
 #### Data
 
 - **Dataset:** U.S. Hardware & Tools Retail Sales
