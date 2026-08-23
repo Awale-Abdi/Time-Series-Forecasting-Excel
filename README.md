@@ -189,7 +189,12 @@ Evaluated forecasting performance using:
 - Data Analysis ToolPak
 - Time Series Modeling
 - Forecast Visualization
-- Executive Reporting
+
+#### Microsoft Word
+
+- Executive & Decision-Support Reporting
+- Analytical Documentation
+- Business Communication
 
 ## 💡 What This Project Demonstrates
 
